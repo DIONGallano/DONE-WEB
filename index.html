@@ -1,0 +1,344 @@
+<DOCTYPE! html>
+<html>
+    <head>
+                 <title>Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+* {
+  box-sizing: border-box;
+}
+
+.teleport {
+ background-color: #540d83;
+ display: flex;
+ justify-content: center;
+ width: 100vw;
+ position: sticky;
+ top: 0;
+}
+
+.teleport a {
+  float:right;
+  background-color: #540d83;
+  color: #faf629;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.teleport a:hover {
+  background-color: #0400ff;
+  color: rgb(0, 204, 255);
+  outline: double;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 ;
+  padding: 0 ;
+}
+
+.cover {
+  background-image: url(../neoncov.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vw 50vh;
+  padding: 300px;
+  font-size: 40px;
+  text-align: center;
+  color: #fac9a8;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url(../pageback.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+.about{
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  font-size: 30px;
+}
+
+.about-border {
+  margin: 10rem;
+  border-radius: 15px;
+  background-color: #ffa32b;
+  padding: 5rem;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.rando {   
+  padding: 20px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 300px;
+  padding-top: 300px;
+  font-size: 30px;
+}
+
+.rando-box {
+  padding: 10px;
+  margin: 10rem;
+  border-radius: 15px;
+  background-color: #2baaff;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.melikey {
+  background-color: #3df5ec;
+  border-style: ridge;
+  border-width: 2px;
+  border-radius: 100px;
+  margin-left: 12rem; 
+  margin-right: 12rem;
+  margin-top: 25px;
+  margin-bottom: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 10rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.melikey-title {
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.melikey-hit {
+  padding-left: 1px;
+  padding-right: 1px;
+  align-items: center;
+}
+
+.melikey-hit img{
+  height: 100px;
+}
+
+.projects {
+  background-color: pink;
+  margin-left: 12rem; 
+  margin-right: 12rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-style: none;
+  border-radius: 15px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-style: groove;
+  border-width: 7px;
+}
+
+.projects-title {
+  color: #000000;
+  text-align: center;  
+  font-size: larger;
+  padding: 10px 30%;
+}
+
+.projects-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 560px;
+  align-items: center;
+}
+
+.projects-item:hover {
+  border: 4px solid #777;
+  flex: auto;
+}
+
+.projects-item img{
+  width: 100%;
+  height: auto;
+}
+
+.projects-item div.desc {
+  padding: 900px;
+  text-align: center;
+}
+
+.knowme {
+  background-color: black;
+  color: rgb(111, 243, 255);
+  text-align: left;
+  padding-left: 43%;
+  padding-right: 10px;
+  padding-bottom: 300px;
+  padding-top: 180px;
+  font-size: 15px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  background: #540d83;
+}
+
+</style>
+</head>
+
+
+
+<body>
+
+    <div id="cover" class="cover">
+       <h1>My Website</h1>
+       <p>by GALLANO, DION DEE B.</p>
+    </div>
+
+    <div class="teleport">
+     <ul>
+      <li><a href="#cover">Cover</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Works</a></li>
+      <li><a href="#meme">Contact</a></li>
+     </ul>
+    </div>
+
+    <div id="about" class="about">
+      <div class="about-border">
+      <h1>About Me?</h1>
+      <p>
+        I'am an ICT student that is learning to how to program code, edit/modify text languages and experience many ways on how to use different text languages, so I can understand the languages and how to use to make my own projects and complete the task I'am given
+      </p>
+       <img src="../baba.jpg" alt="one" height="300px">
+       <img src="../cur.jpg" alt="two" height="300px" style="padding-left: 320px;">
+      </div>
+    </div>
+
+    <div id="content" class="rando">
+      <div class="rando-box">
+          <h3>My interest/hobbies</h3>
+          <p>-Watching Anime<br>
+          -Watching Shows<br>
+          -Playing Games</p>
+        <br>
+        <h3>My Skills</h3> 
+          <p>-Coding<br>
+            -Problem Solving<br>
+            -Attention to Detail</p> 
+      </div>
+    </div>
+
+ <div class="melikey">
+
+      <div class="melikey-title"><h1>My Favorite Series</h1></div>
+      <div class="melikey-hit">
+      <img src="../MONONO.jpg" alt="Monogatari Series" style="height: 300;">
+      <img src="../UMINEKO.jpg" alt="UMINEKO: When they CRY" style="height: 300;">
+      <img src="../MADOKADN.jpg" alt="Madoka Magica" style="height: 300;">
+      <img src="../Yuushoi.jpg" alt="Isekai at peace" style="height: 300;">
+      <img src="../Walking Dead.jpg" alt="The walking dead" style="height: 300;">
+      </div>
+
+    </div>
+
+<div id="projects" class="projects">
+
+  <div class="projects-title">
+    <h1>PROJECTS</h1>
+  </div>
+
+      <div class="projects-item">
+        <a target="_blank" href="WEbsiteOVT/Hello World Result.jpg">
+           <img src="../Hello World Result.jpg" alt="ProjectsPart" style="height: 300;">
+        </a>
+      </div>
+
+
+      <div class="projects-item">
+        <a target="_blank" href="WEbsiteOVT/Schedule Result.jpg">
+           <img src="../Schedule Result.jpg" alt="ProjectsPart" style="height: 300;">
+        </a>
+      </div>
+      
+        <br>
+
+      <div class="projects-item">
+        <a target="_blank" href="WEbsiteOVT/routine result.jpg">
+           <img src="../routine result.jpg" alt="ProjectsPart" style="height: 300;">
+        </a>
+      </div>
+
+          <br>
+
+      <div class="projects-item">
+        <a target="_blank" href="WEbsiteOVT/Resume Result.jpg">
+           <img src="../Resume Result.jpg" alt="ProjectsPart" style="height: 300;">
+        </a>
+      </div>
+
+          <br>
+
+      <div class="projects-item">
+        <a target="_blank" href="WEbsiteOVT/Quotation result.jpg">
+           <img src="../Quotation result.jpg" alt="ProjectsPart" style="height: 300;">
+        </a>
+      </div>
+
+          <br>
+
+      <div class="projects-item">
+        <a target="_blank" href="WEbsiteOVT/Order form result.jpg">
+           <img src="../Order form result.jpg" alt="ProjectsPart" style="height: 300;">
+        </a>
+      </div>
+
+          <br>
+
+      <div class="projects-item">
+        <a target="_blank" href="WEbsiteOVT/Fonts result.jpg">
+           <img src="../Fonts result.jpg" alt="ProjectsPart" style="height: 300;">
+        </a>
+      </div>
+    </div>
+
+    <div id="meme" class="knowme">
+      <h3>Email:<br> diondeebgallano@gmail.com </h3>
+      <h3>Facebook:<br> Dion Gallano</h3>
+    </div>
+    
+    <div class="footer">
+      <p>Copyright: ©DionDeeBGallano <p>
+    </div>
+
+  </body>
+</html>
